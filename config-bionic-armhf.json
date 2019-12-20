@@ -3,7 +3,7 @@
     {
         "prerun": [
             "mkdir -p ~/.cache/deb2appimage/AppDir/usr/bin",
-            "cp ../../output/* ~/.cache/deb2appimage/debs/",
+            "cp ../../output/*.deb ~/.cache/deb2appimage/debs/",
             "cp ./mcpelauncher-ui-qt.startme ~/.cache/deb2appimage/AppDir/usr/bin"
         ],
         "name": "mcpelauncher",
