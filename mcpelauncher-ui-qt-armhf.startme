@@ -1,0 +1,5 @@
+#!/bin/bash
+msa-daemon &
+OPENSSL_armcap=0 mcpelauncher-ui-qt
+killall msa-daemon
+exit
