@@ -4,11 +4,12 @@
         "prerun": [
             "mkdir -p ~/.cache/deb2appimage/AppDir/usr/bin",
             "cp ../../output/*.deb ~/.cache/deb2appimage/debs/",
+            "cp /var/cache/apt/archives/*armhf.deb ~/.cache/deb2appimage/debs/",
             "cp ./mcpelauncher-ui-qt-armhf.startme ~/.cache/deb2appimage/AppDir/usr/bin"
         ],
         "name": "mcpelauncher",
         "version": "bionic-current",
-        "deps": "DEPS_PLACEHOLDER",
+        "deps": "",
         "repoarch": "armhf",
         "distrorepo": "Debian",
         "repoversion": "buster",
