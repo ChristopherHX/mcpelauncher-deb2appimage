@@ -14,7 +14,7 @@
         "repoarch": "armhf",
         "distrorepo": "Debian",
         "repoversion": "buster",
-        "binarypath": "/usr/bin/mcpelauncher-ui-qt.startme",
+        "binarypath": "/usr/bin/mcpelauncher-ui-qt-armhf.startme",
         "desktoppath": "/usr/share/applications/mcpelauncher-ui-qt.desktop",
         "iconpath": "/usr/share/pixmaps/mcpelauncher-ui-qt.png",
         "usewrapper": "false",
@@ -34,7 +34,7 @@
         "setperllib": "false",
         "setgsettingsschemadir": "false",
         "setqtpluginpath": "false",
-        "exec": "/usr/bin/mcpelauncher-ui-qt.startme"
+        "exec": "/usr/bin/mcpelauncher-ui-qt-armhf.startme"
     }
     ],
     "authors": [
