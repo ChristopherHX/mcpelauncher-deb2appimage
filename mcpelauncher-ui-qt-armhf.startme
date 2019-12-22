@@ -1,10 +1,4 @@
 #!/bin/bash
-if [ -z "$LIBGL_DRIVERS_PATH"] && [ -z "$GBM_DRIVERS_PATH"]
-then
-    embedded=$(realpath $(dirname "$0")/../lib/arm-linux-gnueabihf/)
-    export LIBGL_DRIVERS_PATH=/usr/lib/arm-linux-gnueabihf/dri/:/usr/lib/dri/:${embedded}dri/
-    export GBM_DRIVERS_PATH=/usr/lib/arm-linux-gnueabihf/:/usr/lib/:${embedded}
-fi
 $(dirname "$0")/msa-daemon &
 OPENSSL_armcap=0 $(dirname "$0")/mcpelauncher-ui-qt
 killall $(dirname "$0")/msa-daemon
