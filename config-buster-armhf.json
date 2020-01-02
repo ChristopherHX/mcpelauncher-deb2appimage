@@ -9,7 +9,7 @@
             "apt download DEPS_PLACEHOLDER"
         ],
         "name": "mcpelauncher",
-        "version": "bionic-current",
+        "version": "buster-current",
         "deps": "",
         "repoarch": "armhf",
         "distrorepo": "Debian",
