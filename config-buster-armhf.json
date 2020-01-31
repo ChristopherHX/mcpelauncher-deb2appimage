@@ -5,7 +5,7 @@
             "mkdir -p ~/.cache/deb2appimage/AppDir/usr/bin",
             "cp ../../output/*.deb ~/.cache/deb2appimage/debs/",
             "cp ./mcpelauncher-ui-qt-armhf.startme ~/.cache/deb2appimage/AppDir/usr/bin",
-            "cp ./qt-armhf.conf ~/.cache/deb2appimage/AppDir/usr/bin",
+            "cp ./qt-armhf.conf ~/.cache/deb2appimage/AppDir/usr/bin/qt.conf",
             "cd ~/.cache/deb2appimage/debs/",
             "apt download DEPS_PLACEHOLDER libqt5webengine-data"
         ],
