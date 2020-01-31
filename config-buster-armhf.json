@@ -6,7 +6,7 @@
             "cp ../../output/*.deb ~/.cache/deb2appimage/debs/",
             "cp ./mcpelauncher-ui-qt-armhf.startme ~/.cache/deb2appimage/AppDir/usr/bin",
             "cd ~/.cache/deb2appimage/debs/",
-            "apt download DEPS_PLACEHOLDER"
+            "apt download DEPS_PLACEHOLDER libqt5webengine-data"
         ],
         "name": "mcpelauncher",
         "version": "buster-current",
