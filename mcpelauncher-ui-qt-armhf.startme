@@ -2,6 +2,6 @@
 export OPENSSL_armcap=0
 export LD_LIBRARY_PATH=$(dirname "$0")/../lib/arm-linux-gnueabihf/
 $(dirname "$0")/msa-daemon &
+$(dirname "$0")/msa-ui-qt.startme &
 $(dirname "$0")/mcpelauncher-ui-qt
-killall $(dirname "$0")/msa-daemon
 exit
